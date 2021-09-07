@@ -70,6 +70,10 @@ const BasicLayout = ({children, name}) => {
       'hackathon':{
         title:' IoTeX Hackathon India 2021 is Here. Join in and change the world!',
         meta:'IoTeX Hackathon India is calling for amazing developers to bring their ideas and creativity to build a better smart device filled world. Learn more about how you can win 16,000$ in prizes....'
+      },
+      'vita':{
+        title:'',
+        meta:''
       }
     }
     globalStyle()

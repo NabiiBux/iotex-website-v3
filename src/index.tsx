@@ -24,6 +24,7 @@ import CmcStarterPack from "@/pages/CmcStarterPack";
 import StarterPack from "@/pages/StarterPack";
 import Hackathon from "@/pages/Hackathon";
 import CmcStake from "@/pages/CmcStake";
+import Vita from "@/pages/Vita";
 
 // hotjar.initialize(2494554, 6);
 
@@ -46,7 +47,8 @@ export const App = observer(() => {
 	  { path: '/iopay', component: Iopay},
 	  { path: '/start', component: StarterPack},
 	  { path: '/hackathon-india', component:Hackathon},
-	  { path: '/cmc-staking', component:CmcStake}
+	  { path: '/cmc-staking', component:CmcStake},
+	  { path: '/vita', component: Vita}
   ]
 	useEffect(() => {
 		lang.init();
